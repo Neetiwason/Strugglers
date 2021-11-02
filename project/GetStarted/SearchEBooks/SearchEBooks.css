@@ -1,0 +1,98 @@
+body {
+  min-height: 100%;
+  margin: 0;
+  background-color: #F5DEB3 ;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+h1{
+  color: white;
+  font-family: "Segoe UI",Arial,sans-serif;
+}
+
+button{
+  font-size: 19px;
+  background-color: inherit;
+  padding: 10px;
+  border: 0px;
+  font-family: cursive,"Segoe UI",Arial,sans-serif;
+  color: white;
+}
+
+button:hover{
+  border-bottom: 2px solid white;
+}
+label{
+  color: white;
+  font-family: cursive,"Segoe UI",Arial,sans-serif;
+  font-size: 13px;
+  margin-left: 25px;
+}
+
+.outer-right{
+}
+
+.left{
+  padding-left: 60px;
+  padding-right: 60px;
+  float: left;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.left::-webkit-scrollbar {
+    width: 0;
+}
+
+.right{
+  width: 500px;
+  height: 95vh;
+  float: left;
+  margin-top: 2.5vh;
+}
+
+.outer-left{
+  background-color: #737373;
+  height: 100vh;
+  float: left;
+  padding: 10px;
+}
+
+img[src="https://www.google.com/images/cleardot.gif"] {
+  display: none;
+}
+
+.book{
+  width: 200px;
+  font-family: cursive,"Segoe UI",Arial,sans-serif;
+  padding-top: 60px;
+}
+
+#inp{
+  padding: 8px;
+  width: 200px;
+  font-family: cursive,"Segoe UI",Arial,sans-serif;
+  font-size: 17px;
+  background-color: #737373;
+  color: white;
+  border: 0px;
+  border-bottom: 1px solid white;
+}
+
+.sub{
+  margin-bottom:25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#rule1{
+  background-color: white;
+  height: 1.5px;
+  margin-bottom: 100px;
+}

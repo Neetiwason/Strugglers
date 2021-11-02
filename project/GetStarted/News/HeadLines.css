@@ -1,0 +1,87 @@
+body {
+  min-height: 100%;
+  margin: 0;
+  background-color: #F5DEB3 ;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+h1{
+  color: white;
+  font-family: "Segoe UI",Arial,sans-serif;
+}
+
+button{
+  font-size: 19px;
+  background-color: inherit;
+  padding: 10px;
+  border: 0px;
+  font-family: cursive,"Segoe UI",Arial,sans-serif;
+  color: white;
+}
+
+button:hover{
+  border-bottom: 2px solid white;
+}
+
+a{
+  text-decoration: none;
+  font-family: cursive,"Segoe UI",Arial,sans-serif;
+  font-size: 15px;
+  color: black;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+.select-box{
+  padding: 8px;
+  width: 200px;
+  font-family: cursive,"Segoe UI",Arial,sans-serif;
+  font-size: 17px;
+  background-color: #737373;
+  color: white;
+}
+
+.left{
+  background-color: #737373;
+  height: 100vh;
+  float: left;
+  padding: 10px;
+}
+
+#rule1{
+  background-color: white;
+  height: 1.5px;
+}
+
+.sub{
+  margin: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right{
+  width: 70%;
+  color: black;
+  float: right;
+  overflow: scroll;
+  height: 100vh;
+  padding: 10px;
+  font-family: cursive,"Segoe UI",Arial,sans-serif;
+}
+
+#header{
+  color: black;
+}
+
+#rule2{
+  background-color: black;
+  height: 1.5px;
+}
+
+.para{
+  height: 100vh;
+}
